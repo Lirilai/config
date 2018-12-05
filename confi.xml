@@ -4994,18 +4994,30 @@
             	</service>
         	</services>
 		<CCVersions>
+			
+			<version id="9.1">
+				<enabled>true</enabled>
+				<calculateCC>false</calculateCC>
+				<showcase>false</showcase>
+				<loanApplication>false</loanApplication>
+				<creditCardApplication>true</creditCardApplication>
+				<CCTutorial>false</CCTutorial>
+				<CCOperationHistory>true</CCOperationHistory>
+				<calculateCCDeeplink>false</calculateCCDeeplink>
+				<showcaseDeeplink>false</showcaseDeeplink>
+            		</version>
             	
-            	<version id="default">
-                	<enabled>true</enabled>
-                	<calculateCC>true</calculateCC>
-                	<showcase>true</showcase>
-                	<loanApplication>true</loanApplication>
-                	<creditCardApplication>true</creditCardApplication>
-                	<CCTutorial>true</CCTutorial>
-                	<CCOperationHistory>true</CCOperationHistory>
-                	<calculateCCDeeplink>true</calculateCCDeeplink>
-                	<showcaseDeeplink>true</showcaseDeeplink>
-            	</version>
+            		<version id="default">
+				<enabled>true</enabled>
+				<calculateCC>true</calculateCC>
+				<showcase>true</showcase>
+				<loanApplication>true</loanApplication>
+				<creditCardApplication>true</creditCardApplication>
+				<CCTutorial>true</CCTutorial>
+				<CCOperationHistory>true</CCOperationHistory>
+				<calculateCCDeeplink>true</calculateCCDeeplink>
+				<showcaseDeeplink>true</showcaseDeeplink>
+            		</version>
         	</CCVersions>
 		</param>
 		<param name="creditCapacity" description="Êðåäèòíûé ïîòåíöèàë">
