@@ -4994,19 +4994,6 @@
             	</service>
         	</services>
 		<CCVersions>
-			
-			<version id="9.1">
-				<enabled>true</enabled>
-				<calculateCC>false</calculateCC>
-				<showcase>false</showcase>
-				<loanApplication>false</loanApplication>
-				<creditCardApplication>true</creditCardApplication>
-				<CCTutorial>false</CCTutorial>
-				<CCOperationHistory>true</CCOperationHistory>
-				<calculateCCDeeplink>false</calculateCCDeeplink>
-				<showcaseDeeplink>false</showcaseDeeplink>
-            		</version>
-            	
             		<version id="default">
 				<enabled>true</enabled>
 				<calculateCC>true</calculateCC>
