@@ -4994,7 +4994,7 @@
             	</service>
         	</services>
 		<CCVersions>
-            		<version id="default">
+            		<version id="9.1">
 				<enabled>true</enabled>
 				<calculateCC>true</calculateCC>
 				<showcase>true</showcase>
